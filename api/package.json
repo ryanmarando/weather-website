@@ -6,7 +6,8 @@
     "build": "tsc",
     "dev": "tsc && node dist/app.js",
     "start": "node dist/app.js",
-    "startapi": "nodemon --ext ts,js,json --exec \"node --no-warnings --loader ts-node/esm src/app.ts\""
+    "startapi": "nodemon --ext ts,js,json --exec \"node --no-warnings --loader ts-node/esm src/app.ts\"",
+    "seed": "node dist/seed.js"
   },
   "type": "module",
   "keywords": [],
